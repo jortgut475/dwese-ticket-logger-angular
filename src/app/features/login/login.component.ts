@@ -29,4 +29,8 @@ export class LoginComponent {
         },
       });
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> af2e84d (Taller de Login Angular contra API Rest)

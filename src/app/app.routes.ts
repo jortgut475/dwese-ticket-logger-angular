@@ -9,23 +9,23 @@ import { Error404Component } from './features/error404/error404.component';
 export const routes: Routes = [
     {
         path: '', //Ruta inicial
-        component:HomeComponent,
+        component: HomeComponent,
     },
     {
         path: 'login', //Página de inicio de sesión
-        component:LoginComponent,
+        component: LoginComponent,
     },
     {
-        path:'regions', //Página protegida
-        component:RegionsComponent,
+        path: 'regions', //Página protegida
+        component: RegionsComponent,
         canActivate: [authGuard],   //Protegida por el guard   
     },
     {
-        path: 'forbiden',
-        component:ForbiddenComponent,
-    },//Página 403
+        path: 'forbidden',
+        component: ForbiddenComponent,
+    }, //Página 403
     {
         path: '**', //Ruta comodín para 404
-        component:Error404Component,
+        component: Error404Component,
     },
 ];
