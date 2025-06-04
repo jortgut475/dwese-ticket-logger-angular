@@ -1,0 +1,26 @@
+<header class="main-header">
+  <div class="logo">
+    <a href="/">Pepe Ortega</a>
+  </div>
+
+  <nav class="navigation">
+    <ul class="nav-links">
+      <li><a routerLink="/">Inicio</a></li>
+
+      <!-- Solo para usuarios logueados -->
+      <li *ngIf="isLoggedIn">
+        <a routerLink="/regions">Comunidades Autónomas</a>
+      </li>
+
+      <!-- Enlace de login si NO está logueado -->
+      <li *ngIf="!isLoggedIn">
+        <a routerLink="/login">Login</a>
+      </li>
+
+      <!-- Logout si SÍ está logueado -->
+      <li *ngIf="isLoggedIn">
+        <a (click)="logout()">Logout</a>
+      </li>
+    </ul>
+  </nav>
+</header>
