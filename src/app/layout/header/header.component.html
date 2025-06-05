@@ -7,9 +7,11 @@
     <ul class="nav-links">
       <li><a routerLink="/">Inicio</a></li>
 
+      <!-- Solo para usuarios sin login -->
+      <li><a routerLink="/regions">Comunidades Autónomas(Prueba Sin Login)</a></li>
+
       <!-- Solo para usuarios logueados -->
-      <li *ngIf="isLoggedIn">
-        <a routerLink="/regions">Comunidades Autónomas</a>
+      <li *ngIf="isLoggedIn"><a routerLink="/regions">Comunidades Autónomas</a>
       </li>
 
       <!-- Enlace de login si NO está logueado -->
@@ -22,5 +24,6 @@
         <a (click)="logout()">Logout</a>
       </li>
     </ul>
+    <app-notifications *ngIf="isLoggedIn"></app-notifications>
   </nav>
 </header>

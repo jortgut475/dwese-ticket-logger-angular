@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { AuthService } from './auth.service';
-import { environment } from '../../../environments/environments';
+import { environment } from '../../../enviroments/environments';
 
 /**
  * Servicio para gestionar las regiones, incluyendo la obtención de datos paginados y autenticación con token.
