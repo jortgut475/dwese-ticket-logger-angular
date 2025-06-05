@@ -1,4 +1,5 @@
 <header class="main-header">
+<<<<<<< HEAD
   <div class="logo">
     <a href="/">Pepe Ortega</a>
   </div>
@@ -26,4 +27,18 @@
     </ul>
     <app-notifications *ngIf="isLoggedIn"></app-notifications>
   </nav>
+=======
+ <div class="logo">
+   <a href="/">Pepe Ortega</a>
+ </div>
+ <nav class="navigation">
+   <ul class="nav-links">
+     <li><a routerLink="/">Inicio</a></li>
+     <li><a routerLink="/regions">Comunidades Autónomas (prueba sin login)</a></li>
+     <li *ngIf="isLoggedIn"><a routerLink="/regions">Comunidades Autónomas</a></li>
+     <li><a routerLink="/login">Login</a></li>
+     <li *ngIf="isLoggedIn"><a (click)="logout()">Logout</a></li>
+   </ul>
+ </nav>
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
 </header>

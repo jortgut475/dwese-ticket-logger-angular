@@ -32,7 +32,10 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/azure-blue.css",
+=======
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
               "src/styles.scss"
             ],
             "scripts": [],
@@ -97,7 +100,10 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/azure-blue.css",
+=======
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
               "src/styles.scss"
             ],
             "scripts": []

@@ -1,4 +1,5 @@
 .welcome-container {
+<<<<<<< HEAD
   text-align: center;
   margin-top: 50px;
   padding: 20px;
@@ -15,3 +16,23 @@
   margin: 10px 0;
   line-height: 1.6;
 }
+=======
+ text-align: center;
+ margin-top: 50px;
+ padding: 20px;
+}
+
+
+.welcome-container h1 {
+ font-size: 2.5rem;
+ color: #333;
+}
+
+
+.welcome-container p {
+ font-size: 1.2rem;
+ color: #555;
+ margin: 10px 0;
+line-height: 1.6;
+}
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b

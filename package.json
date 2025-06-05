@@ -11,20 +11,30 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@angular/cdk": "^19.2.18",
+=======
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
     "@angular/forms": "^19.2.0",
+<<<<<<< HEAD
     "@angular/material": "^19.2.18",
+=======
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/platform-server": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.1",
+<<<<<<< HEAD
     "@stomp/stompjs": "^7.1.1",
     "express": "^4.18.2",
     "jwt-decode": "^4.0.0",
+=======
+    "express": "^4.18.2",
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
@@ -44,4 +54,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.7.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> af2e84d53eb7c9910ee79b72556d292593294f9b
